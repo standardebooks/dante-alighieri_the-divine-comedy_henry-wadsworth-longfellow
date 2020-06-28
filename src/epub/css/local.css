@@ -5,6 +5,11 @@ ul{
 	list-style-type:none;
 }
 
+ul li{
+	padding-bottom: 1em;
+}
+
+/* Bridgeheads */
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
@@ -16,6 +21,7 @@ ul{
 [epub|type~="bridgehead"] i{
 	font-style: normal;
 }
+/* End bridgeheads */
 
 /* Poetry */
 [epub|type~="z3998:poem"] p{
