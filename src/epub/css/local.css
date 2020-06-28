@@ -1,6 +1,10 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+ul{
+	list-style-type:none;
+}
+
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
