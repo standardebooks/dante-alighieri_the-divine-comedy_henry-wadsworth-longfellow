@@ -9,6 +9,10 @@ ul li{
 	padding-bottom: 1em;
 }
 
+body [xml|lang]{
+	font-style: italic;
+}
+
 /* Bridgeheads */
 [epub|type~="bridgehead"]{
 	display: inline-block;
