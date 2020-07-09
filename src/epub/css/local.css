@@ -29,6 +29,10 @@ body [xml|lang]{
 	margin-top: 1em;
 }
 
+[epub|type~="z3998:poem"] + p{
+	text-indent: 0;
+}
+
 [epub|type~="z3998:poem"] p > span{
 	display: block;
 	text-indent: -1em;
@@ -47,6 +51,11 @@ p span.i1{
 p span.i2{
 	text-indent: -1em;
 	padding-left: 3em;
+}
+
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
 }
 /* End poetry */
 
