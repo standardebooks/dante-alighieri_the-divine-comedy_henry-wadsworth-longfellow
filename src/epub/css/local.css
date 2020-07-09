@@ -5,6 +5,10 @@ body [xml|lang]{
 	font-style: italic;
 }
 
+abbr.era{
+	font-variant: all-small-caps;
+}
+
 /* Bridgeheads */
 [epub|type~="bridgehead"]{
 	display: inline-block;
