@@ -106,23 +106,8 @@ span.elision{
 	text-indent: 0;
 }
 
-table[epub|type~="z3998:drama"],
 [epub|type~="z3998:drama"] table{
 	margin: 1em auto;
-}
-
-[epub|type~="z3998:stage-direction"]{
-	font-style: italic;
-}
-
-[epub|type~="z3998:stage-direction"]::before{
-	content: "(";
-	font-style: normal;
-}
-
-[epub|type~="z3998:stage-direction"]::after{
-	content: ")";
-	font-style: normal;
 }
 
 [epub|type~="z3998:persona"]{
