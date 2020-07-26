@@ -35,8 +35,8 @@
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
-		<meta property="se:subject">Poetry</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Poetry</meta>
 		<meta property="se:subject">Spirituality</meta>
 		<dc:description id="description">The author journeys through Hell, Purgatory, and Heaven in order to receive salvation and divine love.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
