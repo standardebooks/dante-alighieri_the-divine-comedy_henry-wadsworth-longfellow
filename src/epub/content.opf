@@ -36,8 +36,9 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="se:subject">Poetry</meta>
+		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Spirituality</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">The author journeys through Hell, Purgatory, and Heaven in order to receive salvation and divine love.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Long Description.&lt;/p&gt;
 		</meta>
@@ -47,14 +48,14 @@
 		<dc:source>https://archive.org/details/divinecomedydant01dant</dc:source>
 		<dc:source>https://archive.org/details/divinecomedydant02dant</dc:source>
 		<dc:source>https://archive.org/details/divinecomedydante03dantrich</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">The completion date is referenced in the colophon due to the work not being published until 1472.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Divine_Comedy</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/dante-alighieri_the-divine-comedy_henry-wadsworth-longfellow</meta>
 		<dc:creator id="author">Dante Alighieri</dc:creator>
 		<meta property="file-as" refines="#author">Alighieri, Dante</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Durante di Alighiero degli Alighieri</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Dante_Alighieri</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n78095495</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
