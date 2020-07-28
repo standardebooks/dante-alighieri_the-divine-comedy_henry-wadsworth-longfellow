@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/dante-alighieri/the-divine-comedy/henry-wadsworth-longfellow</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/dante-alighieri/the-divine-comedy/henry-wadsworth-longfellow/henry-wadsworth-longfellow</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
@@ -52,7 +52,7 @@
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Divine_Comedy</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/dante-alighieri_the-divine-comedy_henry-wadsworth-longfellow</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/dante-alighieri_the-divine-comedy_henry-wadsworth-longfellow_henry-wadsworth-longfellow</meta>
 		<dc:creator id="author">Dante Alighieri</dc:creator>
 		<meta property="file-as" refines="#author">Alighieri, Dante</meta>
 		<meta property="se:name.person.full-name" refines="#author">Durante di Alighiero degli Alighieri</meta>
@@ -66,6 +66,7 @@
 		<meta property="display-seq" refines="#translator">1</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">Hieronymus Bosch</dc:contributor>
 		<meta property="file-as" refines="#artist">Bosch, Hieronymus</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Hieronymus_Bosch</meta>
@@ -99,14 +100,17 @@
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+		<item href="images/endnotes-illustration-1.svg" id="endnotes-illustration-1.svg" media-type="image/svg+xml"/>
+		<item href="images/endnotes-illustration-2.svg" id="endnotes-illustration-2.svg" media-type="image/svg+xml"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/epigraph.xhtml" id="epigraph.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/inferno.xhtml" id="inferno.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/loi.xhtml" id="loi.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/paradiso.xhtml" id="paradiso.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/purgatorio.xhtml" id="purgatorio.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -121,6 +125,7 @@
 		<itemref idref="purgatorio.xhtml"/>
 		<itemref idref="paradiso.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
+		<itemref idref="loi.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
