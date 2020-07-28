@@ -155,3 +155,15 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 /* End epigraph */
+
+/* image */
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figure + p{
+	text-indent: 0;
+}
+/* End image */
