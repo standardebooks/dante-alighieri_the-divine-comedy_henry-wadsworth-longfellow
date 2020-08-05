@@ -19,7 +19,7 @@ abbr.era{
 	text-indent: 0;
 }
 
-header p[epub|type~="bridgehead"] span[epub|type~="z3998:roman"]{
+[epub|type~="bridgehead"] span[epub|type~="z3998:roman"]{
 	/* Prevents roman numerals from causing problems */
 	display: inline-block;
 }
