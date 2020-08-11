@@ -20,12 +20,8 @@ abbr.era{
 }
 
 [epub|type~="bridgehead"] span[epub|type~="z3998:roman"]{
-	/* Prevents roman numerals from causing problems */
+	/* Prevents problems with z3998:poem & z3998:roman */
 	display: inline-block;
-}
-
-[epub|type~="bridgehead"] i{
-	font-style: normal;
 }
 /* End bridgeheads */
 
@@ -174,3 +170,28 @@ figure + p{
 	text-indent: 0;
 }
 /* End image */
+
+/* Counter (REMOVE LATER) */
+#inferno section[epub|type~="z3998:poem"] p,
+#purgatorio section[epub|type~="z3998:poem"] p,
+#paradiso section[epub|type~="z3998:poem"] p{
+	margin-left: 6em;
+}
+
+#inferno section[epub|type~="z3998:poem"] p > span,
+#purgatorio section[epub|type~="z3998:poem"] p > span,
+#paradiso section[epub|type~="z3998:poem"] p > span{
+	counter-increment: line 1;
+}
+
+#inferno section[epub|type~="z3998:poem"]:not(#inferno-preface) p > span:nth-of-type(5n):before,
+#purgatorio section[epub|type~="z3998:poem"]:not(#purgatorio-preface) p > span:nth-of-type(5n):before,
+#paradiso section[epub|type~="z3998:poem"]:not(#paradiso-preface) p > span:nth-of-type(5n):before{
+	content: counter(line);
+	width: 2em;
+	display: block;
+	float: right;
+	margin-right: 5em;
+	font-size: .75em;
+}
+/* End counter */
