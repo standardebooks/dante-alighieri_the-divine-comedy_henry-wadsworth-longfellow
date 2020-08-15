@@ -40,11 +40,12 @@
 		<meta property="se:subject">Spirituality</meta>
 		<dc:description id="description">The author journeys through Hell, Purgatory, and Heaven in order to receive salvation and divine love.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Long Description.&lt;/p&gt;
+			&lt;p&gt;Dante Alighieri’s &lt;i&gt;Divine Comedy&lt;/i&gt; is considered one of the greatest works in world literature and is attributed to establishing a standardized Italian language that is used today. Written between 1308 and 1320, Dante draws from countless subjects including Roman Catholic theology and philosophy, the struggle between the papacy and the Holy Roman Empire, Greek mythology, and geocentric cosmology to answer the age-old question: what does the afterlife look like? Dante’s vision, this three-volume epic poem, describes in great detail the systematic levels within Hell, Purgatory, and Heaven.&lt;/p&gt;
+			&lt;p&gt;The &lt;i&gt;Divine Comedy&lt;/i&gt; opens with Dante’s death. Not his actual death, that would come shortly after his work’s completion, but his fictional death where our author is found wandering in a dark forest. Blocked from climbing towards the bright light by three beasts: a she-wolf, leopard, and lion, he is forced to walk further into the darkened valley and towards the gates of Hell. Dante with his guides Virgil and Beatrice must travel through the nine circles of Hell, seven terraces of Purgatory, and nine spheres of Heaven to experience divine justice for corresponding earthly sins so that he may reach the Empyrean and receive God’s love. On his journey, he will learn that one must be consciously devoted to the path of morality and righteousness or they will find themselves on a path towards sin.&lt;/p&gt;
+			&lt;p&gt;This production is based on Henry Wadsworth Longfellow’s blank verse translation; it succeeds in capturing the original brilliance of Dante’s internal rhymes and hypnotic patterns while also being accurate.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1004</dc:source>
-		<dc:source>https://catalog.hathitrust.org/Record/000845309</dc:source>
 		<dc:source>https://archive.org/details/divinecomedydant01dant</dc:source>
 		<dc:source>https://archive.org/details/divinecomedydant02dant</dc:source>
 		<dc:source>https://archive.org/details/divinecomedydante03dantrich</dc:source>
