@@ -2,7 +2,8 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
-body [xml|lang]{
+body [epub|type~="endnotes"] [xml|lang]:not([xml|lang~="enm"]){
+	/* Prevents italicizing middle English and volume titles */
 	font-style: italic;
 }
 
@@ -117,7 +118,7 @@ span.elision{
 }
 /* End drama */
 
-/* epigraph */
+/* Epigraph */
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
@@ -159,7 +160,7 @@ section[epub|type~="epigraph"] > *{
 }
 /* End epigraph */
 
-/* image */
+/* Image */
 figure img{
 	display: block;
 	margin: auto;
@@ -172,12 +173,6 @@ figure + p{
 /* End image */
 
 /* Counter (REMOVE LATER) */
-#inferno section[epub|type~="z3998:poem"] p,
-#purgatorio section[epub|type~="z3998:poem"] p,
-#paradiso section[epub|type~="z3998:poem"] p{
-	margin-left: 6em;
-}
-
 #inferno section[epub|type~="z3998:poem"] p > span,
 #purgatorio section[epub|type~="z3998:poem"] p > span,
 #paradiso section[epub|type~="z3998:poem"] p > span{
@@ -188,7 +183,7 @@ figure + p{
 #purgatorio section[epub|type~="z3998:poem"]:not(#purgatorio-preface) p > span:nth-of-type(5n):before,
 #paradiso section[epub|type~="z3998:poem"]:not(#paradiso-preface) p > span:nth-of-type(5n):before{
 	content: counter(line);
-	width: 2em;
+	width: 1em;
 	display: block;
 	float: right;
 	margin-right: 5em;
