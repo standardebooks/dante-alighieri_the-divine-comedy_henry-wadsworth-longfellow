@@ -8,9 +8,9 @@
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">bkd</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">mdc</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
@@ -44,7 +44,7 @@
 			&lt;p&gt;The &lt;i&gt;Divine Comedy&lt;/i&gt; opens with Dante’s death. Not his actual death, that would come shortly after his work’s completion, but his fictional death where our author is found wandering in a dark forest. Blocked from climbing towards the bright light by three beasts: a she-wolf, leopard, and lion, he is forced to walk further into the darkened valley and towards the gates of Hell. Dante with his guides Virgil and Beatrice must travel through the nine circles of Hell, seven terraces of Purgatory, and nine spheres of Heaven to experience divine justice for corresponding earthly sins so that he may reach the Empyrean and receive God’s love. On his journey, he will learn that one must be consciously devoted to the path of morality and righteousness or they will find themselves on a path towards sin.&lt;/p&gt;
 			&lt;p&gt;This production is based on Henry Wadsworth Longfellow’s blank verse translation; it succeeds in capturing the original brilliance of Dante’s internal rhymes and hypnotic patterns while also being accurate.&lt;/p&gt;
 		</meta>
-		<dc:language>en-GB</dc:language>
+		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1004</dc:source>
 		<dc:source>https://archive.org/details/divinecomedydant01dant</dc:source>
 		<dc:source>https://archive.org/details/divinecomedydant02dant</dc:source>
@@ -65,9 +65,9 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Henry_Wadsworth_Longfellow</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n79056429</meta>
 		<meta property="display-seq" refines="#translator">1</meta>
+		<meta property="se:role" refines="#translator" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#translator" scheme="marc:relators">ill</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">Hieronymus Bosch</dc:contributor>
 		<meta property="file-as" refines="#artist">Bosch, Hieronymus</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Hieronymus_Bosch</meta>
@@ -89,12 +89,12 @@
 		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
