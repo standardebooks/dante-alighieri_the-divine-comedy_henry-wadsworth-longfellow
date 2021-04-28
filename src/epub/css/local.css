@@ -7,6 +7,10 @@ body [epub|type~="endnotes"] [xml|lang]:not([xml|lang~="enm"]){
 	font-style: italic;
 }
 
+section{
+	break-after: page;
+}
+
 abbr.era{
 	font-variant: all-small-caps;
 }
