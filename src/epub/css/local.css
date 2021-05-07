@@ -30,9 +30,8 @@ abbr.era{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] span[epub|type~="z3998:roman"]{
-	/* Prevents problems with z3998:poem & z3998:roman */
-	display: inline-block;
+[epub|type~="z3998:poem"] [epub|type~="bridgehead"]{
+	text-align: justify;
 }
 /* End bridgeheads */
 
