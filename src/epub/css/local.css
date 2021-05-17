@@ -15,8 +15,12 @@ abbr.era{
 	font-variant: all-small-caps;
 }
 
+q{
+	font-style: italic;
+}
+
 /* Tables (excluding drama) */
-#endnotes table{
+[epub|type~="endnotes"] table{
 	margin: 1em;
 }
 /* End tables */
