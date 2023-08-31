@@ -53,7 +53,7 @@
 		<dc:source>https://archive.org/details/divinecomedydant02dant</dc:source>
 		<dc:source>https://archive.org/details/divinecomedydante03dantrich</dc:source>
 		<meta property="se:production-notes">The completion date is referenced in the colophon due to the work not being published until 1472.</meta>
-		<meta property="se:word-count">115547</meta>
+		<meta property="se:word-count">115545</meta>
 		<meta property="se:reading-ease.flesch">61.09</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Divine_Comedy</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/dante-alighieri_the-divine-comedy_henry-wadsworth-longfellow</meta>
