@@ -68,7 +68,6 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Henry_Wadsworth_Longfellow</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n79056429</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">ill</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Hieronymus Bosch</dc:contributor>
 		<meta property="file-as" refines="#artist">Bosch, Hieronymus</meta>
@@ -118,7 +117,6 @@
 		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/inferno.xhtml" id="inferno.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/loi.xhtml" id="loi.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/paradiso.xhtml" id="paradiso.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/purgatorio.xhtml" id="purgatorio.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -134,7 +132,6 @@
 		<itemref idref="purgatorio.xhtml"/>
 		<itemref idref="paradiso.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
-		<itemref idref="loi.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
