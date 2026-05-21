@@ -26,7 +26,7 @@ q{
 /* End tables */
 
 /* Bridgeheads */
-[epub|type~="bridgehead"]{
+[epub|type~="se:bridgehead"]{
 	display: inline-block;
 	font-style: italic;
 	max-width: 60%;
@@ -34,7 +34,7 @@ q{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] [epub|type~="bridgehead"]{
+[epub|type~="z3998:poem"] [epub|type~="se:bridgehead"]{
 	text-align: justify;
 }
 /* End bridgeheads */
